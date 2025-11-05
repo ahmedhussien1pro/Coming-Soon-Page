@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Cyber Lab — Launching Soon</title>
+    <!-- Primary Meta Tags -->
+    <meta name="title" content="Cyber Lab — Hands-on Cybersecurity Labs" />
+    <meta
+      name="description"
+      content="Real-world cybersecurity labs, attack simulations, and guided mentorship. Join the waitlist to get early access when Cyber Lab launches." />
+    <meta
+      name="keywords"
+      content="cybersecurity, cyber labs, penetration testing, ethical hacking, security training, red teaming, blue team, SOC, CTF, cyber skills" />
+    <meta name="author" content="A7med Hussien" />
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://your-domain.com/" />
+    <meta property="og:title" content="Cyber Lab — Launching Soon" />
+    <meta
+      property="og:description"
+      content="Hands-on cybersecurity labs & real attack simulation training. Join the waitlist to get notified." />
+    <meta property="og:image" content="https://your-domain.com/og-image.jpg" />
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image" />
+    <meta property="twitter:url" content="https://your-domain.com/" />
+    <meta property="twitter:title" content="Cyber Lab — Launching Soon" />
+    <meta
+      property="twitter:description"
+      content="Hands-on cybersecurity labs & real attack simulation training. Join the waitlist to get notified." />
+    <meta
+      property="twitter:image"
+      content="https://your-domain.com/og-image.jpg" />
+
+    <!-- Google Font -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;800&display=swap"
+      rel="stylesheet" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lobster&display=swap"
+      rel="stylesheet" />
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet" />
+    <!-- Bootstrap 5 -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet" />
+
+    <!-- AOS -->
+    <link href="https://unpkg.com/aos@2.3.4/dist/aos.css" rel="stylesheet" />
+
+    <!-- Font Awesome -->
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+      rel="stylesheet" />
+    <link
+      rel="shortcut icon"
+      type="image/x-icon"
+      href="./assets/img/favIcon.svg" />
+    <link rel="stylesheet" href="./assets/css/style.css" />
+  </head>
+  <body class="">
+    <section class="hero">
+      <img src="./assets/img/shape-1.svg" alt="" class="shapex shape-1" />
+      <img src="./assets/img/shape-2.svg" alt="" class="shapex shape-2" />
+      <img src="./assets/img/shape-3.svg" alt="" class="shapex shape-3" />
+      <img src="./assets/img/shape-4.svg" alt="" class="shapex shape-4" />
+      <img src="./assets/img/shape-5.svg" alt="" class="shapex shape-5" />
+      <img src="./assets/img/shape-6.svg" alt="" class="shapex shape-6" />
+      <div class="panel" data-aos="fade-up">
+        <!-- decorative shapes -->
+        <div class="bg-shape shape-1" aria-hidden="true"></div>
+        <div class="bg-shape shape-2" aria-hidden="true"></div>
+
+        <!-- theme toggle -->
+        <div class="toggle-wrap" title="Toggle theme">
+          <div
+            class="toggle"
+            id="themeToggle"
+            aria-label="Toggle theme"
+            aria-checked="false"
+            role="switch">
+            <div class="knob"></div>
+          </div>
+        </div>
+
+        <div class="left">
+          <span class="tag">Launching soon • Beta</span>
+          <h1 class="title">
+            <span>Cyber</span><span>Lab</span> is Launching Soon
+          </h1>
+
+          <p class="desc">
+            Practical, hands-on cybersecurity labs, real attack simulations, and
+            expert mentorship — built for learners and practitioners. Join the
+            waitlist and be first to try our labs.
+          </p>
+
+          <div
+            class="countdown"
+            id="countdown"
+            aria-live="polite"
+            role="timer"
+            data-aos="zoom-in"
+            data-aos-delay="120">
+            <div class="time-box" aria-hidden="true">
+              <div class="num" id="days">0</div>
+              <div class="label">Days</div>
+            </div>
+            <div class="time-box" aria-hidden="true">
+              <div class="num" id="hours">0</div>
+              <div class="label">Hours</div>
+            </div>
+            <div class="time-box" aria-hidden="true">
+              <div class="num" id="minutes">0</div>
+              <div class="label">Minutes</div>
+            </div>
+            <div class="time-box" aria-hidden="true">
+              <div class="num" id="seconds">0</div>
+              <div class="label">Seconds</div>
+            </div>
+          </div>
+
+          <div class="cta" data-aos="fade-up" data-aos-delay="240">
+            <a class="btn btn-primary-modern" href="#" role="button"
+              >Get Notified</a
+            >
+            <button
+              class="btn btn-ghost"
+              onclick="document.getElementById('email').focus()">
+              Join Waitlist
+            </button>
+          </div>
+
+          <p class="muted-sm" style="margin-top: 10px">
+            Follow us for updates and sneak peeks. We'll deliver frequent lab
+            content and learning paths.
+          </p>
+
+          <div class="social" data-aos="fade-up" data-aos-delay="360">
+            <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+            <a href="#" aria-label="LinkedIn"
+              ><i class="fab fa-linkedin-in"></i
+            ></a>
+            <a href="#" aria-label="GitHub"><i class="fab fa-github"></i></a>
+          </div>
+
+          <form
+            class="subscribe"
+            onsubmit="subscribe(event)"
+            data-aos="fade-up"
+            data-aos-delay="420"
+            aria-label="Subscribe to waitlist">
+            <div class="input-icon">
+              <i class="fa fa-envelope"></i>
+              <input
+                id="email"
+                class="pl"
+                type="email"
+                placeholder="Your email — we'll notify you"
+                required
+                aria-label="Email" />
+            </div>
+
+            <div class="input-icon">
+              <i class="fa fa-comment"></i>
+              <input
+                id="note"
+                class="pl"
+                type="text"
+                placeholder="Notes (optional)"
+                aria-label="Notes" />
+            </div>
+
+            <button class="btn btn-primary-modern" type="submit">
+              Notify Me
+            </button>
+          </form>
+        </div>
+
+        <div class="right" data-aos="fade-left">
+          <img
+            src="./assets/img/img-1.svg"
+            alt="Cybersecurity illustration"
+            class="hero-illustration"
+            onerror="this.onerror=null;this.src='https://images.unsplash.com/photo-1553877522-43269d4ea984?q=80&w=1200&auto=format&fit=crop&ixlib=rb-4.0.3&s=4f4c0f2b7f0d0f6a7a8742a7b4b5b2b1'" />
+        </div>
+      </div>
+    </section>
+
+    <!-- toast container -->
+    <div
+      class="toast-wrap"
+      id="toastWrap"
+      aria-live="polite"
+      aria-atomic="true"></div>
+
+    <!-- Bootstrap JS bundle -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+
+    <!-- AOS JS -->
+    <script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
+    <script src="./assets/js/main.js"></script>
+  </body>
+</html>
