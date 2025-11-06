@@ -426,7 +426,28 @@ body.light .knob {
 }
 /* mobile */
 @media (max-width: 576px) {
+  .hero {
+    padding: 2rem 1rem;
+  }
+  .panel {
+    padding: 0.7rem;
+  }
+  .title {
+    text-align: left;
+  }
+  .desc {
+    text-align: left;
+  }
+  .countdown {
+    justify-content: center;
+  }
   .shapex {
     display: none;
+  }
+  .input-icon:first-child {
+    flex-grow: 1;
+  }
+  .input-icon:first-child input {
+    width: 100%;
   }
 }
