@@ -427,7 +427,7 @@ body.light .knob {
 /* mobile */
 @media (max-width: 576px) {
   .hero {
-    padding: 2rem 0.41rem;
+    padding: 2rem 0rem;
     justify-content: center;
   }
   .panel {
