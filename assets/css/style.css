@@ -431,7 +431,7 @@ body.light .knob {
     justify-content: center;
   }
   .panel {
-    padding: 1rem;
+    padding: 1rem 2rem;
   }
   .title {
     text-align: left;
