@@ -424,3 +424,9 @@ body.light .knob {
 .hero {
   position: relative;
 }
+/* mobile */
+@media (max-width: 576px) {
+  .shapex {
+    display: none;
+  }
+}
